@@ -1,8 +1,11 @@
 import { useState } from 'react'
+import Search from './components/Search';
 
 function App() {
   return (
-    <div></div>
+    <div className='App'>
+      <Search />
+    </div>
   );
 }
 
