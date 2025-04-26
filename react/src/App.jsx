@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Search from './components/Search';
+import FoodList from './components/FoodList';
 
 function App() {
   // we save this state, so can be accessed from the hole application
@@ -7,9 +8,7 @@ function App() {
   return (
     <div className='App'>
       <Search foodData={foodData} setFoodData={setFoodData}/>
-      {foodData.map((food) => (
-        <h1>{food.title}</h1>
-      ))}
+      <FoodList foodData={foodData} />
     </div>
   );
 }
