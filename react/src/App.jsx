@@ -10,7 +10,7 @@ import FoodDetails from './components/FoodDetails';
 function App() {
   // we save this state, so can be accessed from the hole application
   const [foodData, setFoodData] = useState([])
-  const [foodId, setFoodId] = useState("")
+  const [foodId, setFoodId] = useState("656329")
   return (
     <div className='App'>
       <Nav />
