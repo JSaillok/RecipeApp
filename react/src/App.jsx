@@ -8,7 +8,6 @@ import InnerContainer from './components/InnerContainer';
 import FoodDetails from './components/FoodDetails';
 
 function App() {
-  // we save this state, so can be accessed from the hole application
   const [foodData, setFoodData] = useState([])
   const [foodId, setFoodId] = useState("656329")
   return (
@@ -28,6 +27,3 @@ function App() {
 }
 
 export default App;
-
-// The process of this commit was to make the foodId info be accessible
-// for the hole application.
